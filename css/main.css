@@ -12024,14 +12024,18 @@ section.order-done .done-link-wrap .link:first-child a:hover {
     -webkit-border-radius: 3px;
     border-radius: 3px;
     padding: 3px 3px;
+    font-size: 12px;
 }
 .search-list-item {
     display: block;
-    padding-left: 10px;
     cursor: pointer;
     background: #fff;
     -webkit-border-radius: 3px;
     border-radius: 3px;
+    padding: 3px 7px;
+}
+.search-list-item::first-letter {
+    text-transform: uppercase;
 }
 .search-list-item:hover {
     background-color: #f0f0f0
