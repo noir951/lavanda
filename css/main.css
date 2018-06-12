@@ -12024,7 +12024,6 @@ section.order-done .done-link-wrap .link:first-child a:hover {
     -webkit-border-radius: 3px;
     border-radius: 3px;
     padding: 3px 3px;
-    font-size: 12px;
 }
 .search-list-item {
     display: block;
@@ -12033,6 +12032,7 @@ section.order-done .done-link-wrap .link:first-child a:hover {
     -webkit-border-radius: 3px;
     border-radius: 3px;
     padding: 3px 7px;
+    font-size: 12px;
 }
 .search-list-item::first-letter {
     text-transform: uppercase;
