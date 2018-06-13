@@ -7641,8 +7641,7 @@ i.icon.flower {
 i.icon.chat {
     width: 30px;
     height: 30px;
-    background-image: url(../img/chat.svg);
-    background-size: cover;
+    background-position: -37px -111px;
 }
 
 i.icon.up {
