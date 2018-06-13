@@ -7506,17 +7506,19 @@ i.icon {
 }
 
 i.marker.icon {
-    width: 13px;
-    height: 19px;
+    width: 15px;
+    height: 21px;
     background-image: url(../img/geo-border.svg);
     background-size: cover;
 }
 
 i.adress.icon {
-    width: 11px;
-    height: 15px;
+    width: 15px;
+    height: 21px;
     background-image: url(../img/geo.svg);
     background-size: cover;
+    position: relative;
+    top: -2px;
 }
 
 i.icon.phone {
@@ -7527,21 +7529,21 @@ i.icon.phone {
 }
 
 i.icon.photo {
-    width: 38px;
-    height: 29px;
+    width: 39px;
+    height: 30px;
     background-image: url(../img/photo.svg);
     background-size: cover;
 }
 
 i.icon.label {
-    width: 42px;
-    height: 29px;
+    width: 43px;
+    height: 30px;
     background-image: url(../img/otkritka.svg);
     background-size: cover;
 }
 
 i.icon.list {
-    width: 32px;
+    width: 33px;
     height: 30px;
     background-image: url(../img/deliv.svg);
     background-size: cover;
@@ -7913,7 +7915,7 @@ a.account_mobile {
 }
 
 .contact-block-line .phone {
-    margin-left: 35px
+    margin-left: 30px
 }
 
 .adress {
@@ -7933,7 +7935,8 @@ a.account_mobile {
     font-size: 14px;
     line-height: 1.6;
     vertical-align: middle;
-    font-family: RobotoRegular, sans-serif
+    font-family: RobotoRegular, sans-serif;
+    
 }
 
 .adress ul li i {
@@ -8506,6 +8509,10 @@ footer.main-footer .footer-title {
     font-size: 14px;
     display: block;
     margin-bottom: 10px
+}
+
+.social_mob {
+    padding-bottom: 10px;
 }
 
 .social_mob a:hover i {
@@ -11394,15 +11401,15 @@ section.order-done .done-link-wrap .link:first-child a:hover {
                     margin-left: 5px
                 }
                 i.icon.photo {
-                    width: 22px;
-                    height: 16px;
+                    width: 26px;
+                    height: 19px;
                 }
                 i.icon.label {
                     width: 28px;
                     height: 19px;
                 }
                 i.icon.list {
-                    width: 20px;
+                    width: 22px;
                     height: 20px;
                 }
                 .last-sale {
@@ -12095,3 +12102,16 @@ section.order-done .done-link-wrap .link:first-child a:hover {
     display: block;
 }
 
+.map .col-12 iframe{
+-moz-border-radius: 5px 5px 5px 5px; /* Firefox */
+-webkit-border-radius: 5px 5px 5px 5px; /* Safari, Chrome */
+-khtml-border-radius: 5px 5px 5px 5px; /* KHTML */
+border-radius: 14px 5px 5px 5px; /* CSS3 */
+
+overflow: hidden;
+
+position: relative;
+
+/* chrome bug fix */
+-webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+}
