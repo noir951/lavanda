@@ -9193,6 +9193,7 @@ ul.rating-star-list li span {
 .order-history-item .price .price-summ {
     font-family: RobotoMedium, sans-serif;
     font-size: 13px;
+    font-weight: 600;
     margin-top: 15px
 }
 
