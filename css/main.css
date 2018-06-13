@@ -8598,7 +8598,7 @@ ul.deliver-list li p {
 }
 
 .mfp-close-btn-in .mfp-close {
-    background-image: url(../img/cancel-1.svg);
+    background-image: url(../img/close.png);
     color: transparent;
     background-repeat: no-repeat;
     background-position: center center;
@@ -11330,7 +11330,7 @@ section.order-done .done-link-wrap .link:first-child a:hover {
                     overflow-y: auto
                 }
                 .mfp-close-btn-in .mfp-close {
-                    background-image: url(../img/cancel.svg);
+                    background-image: url(../img/close_dark.png);
                     color: transparent;
                     background-repeat: no-repeat;
                     background-position: center center;
