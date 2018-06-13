@@ -12072,11 +12072,13 @@ section.order-done .done-link-wrap .link:first-child a:hover {
 .search-header input {
     position: relative;
 }
+/*
 
-.search-header input:focus {
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
-}
+                                                                                .search-header input:focus {
+                                                                                    border-bottom-left-radius: 0;
+                                                                                    border-bottom-right-radius: 0;
+                                                                                }
+*/
 .search-list {
     position: absolute;
     width: 100%;
@@ -12109,8 +12111,9 @@ section.order-done .done-link-wrap .link:first-child a:hover {
     
 }
 
-.search-header:focus .search-list {
+.search-header:hover .search-list {
     display: block;
+    margin-top: -4px;
 }
 
 
