@@ -4457,18 +4457,20 @@ html {
     margin-right: auto;
     margin-left: auto
 }
+/*
 
-@media (min-width:576px) {
-    .container {
-        max-width: 540px
-    }
-}
+                                                            @media (min-width:576px) {
+                                                                .container {
+                                                                    max-width: 540px
+                                                                }
+                                                            }
 
-@media (min-width:768px) {
-    .container {
-        max-width: 720px
-    }
-}
+                                                            @media (min-width:768px) {
+                                                                .container {
+                                                                    max-width: 720px
+                                                                }
+                                                            }
+*/
 
 @media (min-width:992px) {
     .container {
@@ -7741,7 +7743,7 @@ a.account_mobile {
 }
 
 .mobile_search {
-    margin: 10px
+    margin: 10px 0;
 }
 
 .header-top-bar {
@@ -10510,14 +10512,14 @@ form.promocode {
 }
 
 .add-more-slider .owl-nav .owl-prev {
-    left: -15px;
+    left: -5px;
     -webkit-transform: rotate(180deg);
     -ms-transform: rotate(180deg);
     transform: rotate(180deg)
 }
 
 .add-more-slider .owl-nav .owl-next {
-    right: -15px
+    right: -5px
 }
 
 .add-more-slider .add-more_item img {
@@ -11063,10 +11065,13 @@ section.order-done .done-link-wrap .link:first-child a:hover {
                     overflow: hidden;
                     white-space: nowrap
                 }
-                .main-nav-list {
-                    overflow: hidden;
-                    overflow-x: scroll
-                }
+/*
+                                                                    .main-nav-list {
+                                                                        overflow: hidden;
+                                                                        overflow-x: scroll;
+                                                                        margin-right: -10px;
+                                                                    }
+*/
                 .product-item .poduct-info .prod-info-head .price,
                 .product-item .poduct-info .prod-info-head .title {
                     font-size: 12px
@@ -11186,6 +11191,11 @@ section.order-done .done-link-wrap .link:first-child a:hover {
                 .tab_item .line img {
                     display: none
                 }
+                                                 .main-nav-list {
+                                                    overflow: hidden;
+                                                    overflow-x: scroll;
+                                                    margin-right: -10px;
+                                                }
             }
 
 @media (max-width:575.98px) {
@@ -12046,3 +12056,4 @@ section.order-done .done-link-wrap .link:first-child a:hover {
 .search-header:hover .search-list {
     display: block;
 }
+
