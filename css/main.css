@@ -7508,37 +7508,43 @@ i.icon {
 i.marker.icon {
     width: 13px;
     height: 19px;
-    background-position: 0 0
+    background-image: url(../img/geo-border.svg);
+    background-size: cover;
 }
 
 i.adress.icon {
     width: 11px;
     height: 15px;
-    background-position: -17px 0
+    background-image: url(../img/geo.svg);
+    background-size: cover;
 }
 
 i.icon.phone {
     width: 16px;
     height: 16px;
-    background-position: -32px 0
+    background-image: url(../img/phone.svg);
+    background-size: cover;
 }
 
 i.icon.photo {
-    width: 27px;
-    height: 21px;
-    background-position: -52px 0
+    width: 38px;
+    height: 29px;
+    background-image: url(../img/photo.svg);
+    background-size: cover;
 }
 
 i.icon.label {
-    width: 15px;
-    height: 24px;
-    background-position: -83px 0
+    width: 42px;
+    height: 29px;
+    background-image: url(../img/otkritka.svg);
+    background-size: cover;
 }
 
 i.icon.list {
-    width: 17px;
-    height: 23px;
-    background-position: -102px 0
+    width: 32px;
+    height: 30px;
+    background-image: url(../img/deliv.svg);
+    background-size: cover;
 }
 
 i.icon.listed {
@@ -7550,7 +7556,8 @@ i.icon.listed {
 i.icon.search {
     width: 14px;
     height: 14px;
-    background-position: -123px 0
+    background-image: url(../img/search.svg);
+    background-size: cover;
 }
 
 i.icon.account {
@@ -7562,25 +7569,29 @@ i.icon.account {
 i.icon.star.full {
     width: 14px;
     height: 13px;
-    background-position: -28px -26px
+    background-image: url(../img/gold-star.svg);
+    background-size: cover;
 }
 
 i.icon.star {
     width: 14px;
     height: 13px;
-    background-position: -28px -42px
+    background-image: url(../img/star.svg);
+    background-size: cover;
 }
 
 i.icon.insta {
     width: 19px;
     height: 19px;
-    background-position: -174px 0
+    background-image: url(../img/inst.svg);
+    background-size: cover;
 }
 
 i.icon.vk {
-    width: 22px;
-    height: 19px;
-    background-position: -203px 0
+    width: 27px;
+    height: 16px;
+    background-image: url(../img/vk.svg);
+    background-size: cover;
 }
 
 i.icon.card {
@@ -7595,11 +7606,6 @@ i.icon.head {
     background-position: -36px -75px
 }
 
-i.icon.list {
-    width: 28px;
-    height: 21px;
-    background-position: -68px -75px
-}
 
 i.icon.moto {
     width: 37px;
@@ -7614,9 +7620,10 @@ i.icon.fb-auth {
 }
 
 i.icon.vk-auth {
-    width: 23px;
-    height: 23px;
-    background-position: -89px -37px
+    width: 27px;
+    height: 16px;
+    background-image: url(../img/vk.svg);
+    background-size: cover;
 }
 
 i.icon.ok-auth {
@@ -7634,7 +7641,24 @@ i.icon.flower {
 i.icon.chat {
     width: 30px;
     height: 30px;
-    background-position: -37px -111px
+    background-image: url(../img/chat.svg);
+    background-size: cover;
+}
+
+i.icon.up {
+    
+    width: 7px;
+    height: 13px;
+    background-image: url(../img/down.svg);
+    background-size: cover;
+}
+
+i.icon.down {
+    
+    width: 7px;
+    height: 13px;
+    background-image: url(../img/sort-down.svg);
+    background-size: cover;
 }
 
 i.icon.setting {
@@ -8261,16 +8285,16 @@ a.account_mobile {
 
 .product-item .poduct-info .but-group button.like {
     width: 22px;
-    height: 19px;
-    background-image: url(../img/icons_sprite.png);
-    background-position: -1px -26px;
+    height: 20px;
+    background-image: url(../img/heart-2.svg);
+    background-size: cover;
     margin: 0;
     padding: 0
 }
 
 .product-item .poduct-info .but-group button.like.liked,
 .product-item .poduct-info .but-group button.like:hover {
-    background-position: -1px -45px;
+    background-image: url(../img/heart.svg);
     cursor: pointer
 }
 
@@ -10124,7 +10148,8 @@ label.checkbox {
 
 .input-line-half-full {
     display: inline-block;
-    width: 44%
+    width: 44%;
+    float: right;
 }
 
 .input-group-title {
@@ -11176,6 +11201,26 @@ section.order-done .done-link-wrap .link:first-child a:hover {
                 section.page .deliver-item .text {
                     width: 60%
                 }
+                
+                
+                
+                .contact-block-line .advantages {
+                    display: block
+                }
+                .contact-block-line .advantages ul {
+                    display: block;
+                    width: 100%;
+                    text-align: center
+                }
+                .contact-block-line .advantages ul li {
+                    margin: 0
+                }
+                .contact-block-line .advantages ul li:first-child {
+                    float: left
+                }
+                .contact-block-line .advantages ul li:last-child {
+                    float: right
+                }
             }
 
 @media (max-width:767.98px) {
@@ -11196,6 +11241,7 @@ section.order-done .done-link-wrap .link:first-child a:hover {
                                                     overflow-x: scroll;
                                                     margin-right: -10px;
                                                 }
+    
             }
 
 @media (max-width:575.98px) {
@@ -11349,23 +11395,14 @@ section.order-done .done-link-wrap .link:first-child a:hover {
                 i.icon.photo {
                     width: 22px;
                     height: 16px;
-                    background-position: -41px 0;
-                    -webkit-background-size: 396px 396px;
-                    background-size: 396px
                 }
                 i.icon.label {
-                    width: 12px;
+                    width: 28px;
                     height: 19px;
-                    background-position: -60px 0;
-                    -webkit-background-size: 368px 368px;
-                    background-size: 368px
                 }
                 i.icon.list {
-                    width: 13px;
-                    height: 19px;
-                    background-position: -75px 0;
-                    -webkit-background-size: 368px 368px;
-                    background-size: 368px
+                    width: 20px;
+                    height: 20px;
                 }
                 .last-sale {
                     padding: 0
