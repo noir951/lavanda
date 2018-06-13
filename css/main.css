@@ -11595,7 +11595,7 @@ section.order-done .done-link-wrap .link:first-child a:hover {
                 .wrapper-tabs .tabs .tab {
                     width: auto;
                     font-size: 0;
-                    padding: 3px 25px;
+                    padding: 3px 20px;
                     text-align: center
                 }
                 .wrapper-tabs .tabs .tab p {
@@ -11954,6 +11954,7 @@ section.order-done .done-link-wrap .link:first-child a:hover {
     
 }
 
+
 @media (min-width:768px) and (max-width:1200px) {
     .oreder-list-check .photo {
         width: 100%;
@@ -12008,7 +12009,6 @@ section.order-done .done-link-wrap .link:first-child a:hover {
     
 }
 
-
 .search-header input {
     position: relative;
 }
@@ -12033,6 +12033,7 @@ section.order-done .done-link-wrap .link:first-child a:hover {
     border-radius: 3px;
     padding: 3px 7px;
     font-size: 12px;
+    text-align: left;
 }
 .search-list-item::first-letter {
     text-transform: uppercase;
