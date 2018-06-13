@@ -7536,7 +7536,7 @@ i.icon.photo {
 }
 
 i.icon.label {
-    width: 38px;
+    width: 28px;
     height: 19px;
     background-image: url(../img/otkritka.svg);
     background-size: cover;
@@ -12108,7 +12108,7 @@ section.order-done .done-link-wrap .link:first-child a:hover {
     
 }
 
-.search-header:hover .search-list {
+.search-header:focus .search-list {
     display: block;
 }
 
