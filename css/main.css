@@ -10268,7 +10268,9 @@ input#order-adress {
     border: 0;
     padding: 0;
     margin: 0;
-    line-height: 1.6
+    line-height: 1.6;
+    display: flex;
+    justify-content: space-between;
 }
 
 .oreder-list-check .list .product-count > .name {
