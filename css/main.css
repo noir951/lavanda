@@ -10425,7 +10425,6 @@ form.promocode {
 .more-to-order .add-more-wrap {
     display: block;
     text-align: right;
-    display: none
 }
 
 .more-to-order .add-more-wrap a {
@@ -11640,10 +11639,10 @@ section.order-done .done-link-wrap .link:first-child a:hover {
                 }
                 #add-more .close-add,
                 .more-to-order .add-more-wrap {
-                    display: none!important
+                    display: block!important
                 }
                 #add-more {
-                    display: block!important
+                    display: none!important
                 }
                 .tab_item .pay-but-wrap a {
                     padding: 15px;
