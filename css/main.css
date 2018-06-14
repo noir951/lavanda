@@ -10467,7 +10467,8 @@ form.promocode {
 }
 
 #add-more {
-    position: relative
+    position: relative;
+    display: none;
 }
 
 #add-more .title {
@@ -10518,6 +10519,7 @@ form.promocode {
     -ms-transform: rotate(45deg);
     transform: rotate(45deg)
 }
+
 
 .add-more-slider {
     padding: 0 17px;
@@ -11639,10 +11641,10 @@ section.order-done .done-link-wrap .link:first-child a:hover {
                 }
                 #add-more .close-add,
                 .more-to-order .add-more-wrap {
-                    display: block!important
+                    display: none!important
                 }
                 #add-more {
-                    display: none!important
+                    display: block!important
                 }
                 .tab_item .pay-but-wrap a {
                     padding: 15px;
