@@ -7531,6 +7531,8 @@ i.icon.phone {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    position: relative;
+    top: -1px;
 }
 
 i.icon.photo {
@@ -7609,8 +7611,6 @@ i.icon.insta {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    position: relative;
-    top: -5px;
 }
 
 i.icon.vk {
@@ -7620,8 +7620,6 @@ i.icon.vk {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    position: relative;
-    top: -3px;
 }
 
 i.icon.card {
@@ -7676,10 +7674,11 @@ i.icon.chat {
     background-position: -37px -111px;
 }
 
+/*
 i.icon.up {
     
-    width: 9px;
-    height: 15px;
+    width: 5px;
+    height: 12px;
     background-image: url(../img/down.svg);
     background-size: contain;
     background-repeat: no-repeat;
@@ -7688,12 +7687,24 @@ i.icon.up {
 
 i.icon.down {
     
-    width: 9px;
-    height: 15px;
+    width: 5px;
+    height: 12px;
     background-image: url(../img/sort-down.svg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+}
+*/
+
+.sort-up svg,
+.sort-down svg {
+    position: relative;
+    top: 2px;
+}
+
+.sort-up:hover .fil0,
+.sort-down:hover .fil0 {
+    fill: black;
 }
 
 i.icon.setting {
@@ -7950,7 +7961,7 @@ a.account_mobile {
 }
 
 .contact-block-line .phone {
-    margin-left: 45px
+    margin-left: 30px
 }
 
 .adress {
@@ -8024,7 +8035,8 @@ a.account_mobile {
 .advantages ul {
     display: block;
     margin: 0;
-    padding: 0
+    padding: 0;
+    padding-top: 10px;
 }
 
 .advantages ul li {
@@ -8562,7 +8574,6 @@ footer.main-footer .footer-title {
     font-size: 14px;
     display: block;
     margin-bottom: 10px;
-    font-weight: 600;
 }
 
 .modal {
@@ -11081,7 +11092,7 @@ section.order-done .done-link-wrap .link:first-child a:hover {
             @media (max-width:1199.98px) {
                 .contact-block-line .phone {
                     margin-left: 15px
-                }
+                }                
                 .block-title {
                     font-size: 18px
                 }
@@ -11123,7 +11134,8 @@ section.order-done .done-link-wrap .link:first-child a:hover {
                     text-align: center
                 }
                 .contact-block-line .advantages {
-                    float: none
+                    float: none;
+                    
                 }
                 .contact-block-line .advantages ul li {
                     text-align: left
@@ -11259,7 +11271,8 @@ section.order-done .done-link-wrap .link:first-child a:hover {
                 .contact-block-line .advantages ul {
                     display: block;
                     width: 100%;
-                    text-align: center
+                    text-align: center;
+                    padding: 0;
                 }
                 .contact-block-line .advantages ul li {
                     margin: 0
@@ -12015,6 +12028,7 @@ section.order-done .done-link-wrap .link:first-child a:hover {
         padding-bottom: 40px
     }
  
+    
 }
 
 @media (min-width:1200px) {
@@ -12052,6 +12066,11 @@ section.order-done .done-link-wrap .link:first-child a:hover {
     
 }
 
+@media (min-width:992px) and (max-width:1200px) {
+.advantages ul li:first-child {
+                    display: none;
+                }
+}
 
 @media (min-width:768px) and (max-width:1200px) {
     .oreder-list-check .photo {
