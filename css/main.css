@@ -8445,9 +8445,9 @@ ul.star-list li {
     -webkit-border-radius: 50%;
     border-radius: 50%;
     border: 5px solid #fff;
-    -webkit-box-shadow: inset 0px 0px 0px 2px #fff;
--moz-box-shadow: inset 0px 0px 0px 2px #fff;
-box-shadow: inset 0px 0px 0px 2px #fff);
+    -webkit-box-shadow: inset 0px 0px 0px 1px #fff;
+-moz-box-shadow: inset 0px 0px 0px 1px #fff;
+box-shadow: inset 0px 0px 0px 1px #fff);
 }
 
 .rewiew-item .photo .site img {
