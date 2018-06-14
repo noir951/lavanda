@@ -8444,7 +8444,10 @@ ul.star-list li {
     display: inline-block;
     -webkit-border-radius: 50%;
     border-radius: 50%;
-    border: 5px solid #fff
+    border: 5px solid #fff;
+    -webkit-box-shadow: inset 0px 0px 0px 2px #fff;
+-moz-box-shadow: inset 0px 0px 0px 2px #fff;
+box-shadow: inset 0px 0px 0px 2px #fff);
 }
 
 .rewiew-item .photo .site img {
@@ -12086,22 +12089,24 @@ section.order-done .done-link-wrap .link:first-child a:hover {
     display: none;
     
     background-color: #fff;
-    border: 1px solid #ddd;
+    border: 1px solid #f0f0f0;
     -webkit-border-radius: 3px;
     border-radius: 4px;
     border-top: none;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
+    margin-top: -4px;
+    padding: 6px 4px;
 }
 .search-list-item {
     display: block;
     cursor: pointer;
     background: #fff;
-    -webkit-border-radius: 3px;
-    border-radius: 3px;
     padding: 3px 7px;
     font-size: 12px;
     text-align: left;
+    border-radius: 4px;
+    
 }
 .search-list-item::first-letter {
     text-transform: uppercase;
@@ -12113,7 +12118,6 @@ section.order-done .done-link-wrap .link:first-child a:hover {
 
 .search-header:hover .search-list {
     display: block;
-    margin-top: -4px;
 }
 
 
