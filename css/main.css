@@ -7509,14 +7509,17 @@ i.marker.icon {
     width: 15px;
     height: 21px;
     background-image: url(../img/geo-border.svg);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 i.adress.icon {
     width: 15px;
-    height: 21px;
+    height: 19px;
     background-image: url(../img/geo.svg);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     position: relative;
     top: -2px;
 }
@@ -7525,28 +7528,38 @@ i.icon.phone {
     width: 16px;
     height: 16px;
     background-image: url(../img/phone.svg);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 i.icon.photo {
-    width: 26px;
-    height: 19px;
+    width: 30px;
+    height: 23px;
     background-image: url(../img/photo.svg);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 i.icon.label {
-    width: 28px;
-    height: 19px;
+    width: 32px;
+    height: 25px;
     background-image: url(../img/otkritka.svg);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
 }
 
 i.icon.list {
-    width: 22px;
-    height: 20px;
+    width: 25px;
+    height: 23px;
     background-image: url(../img/deliv.svg);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
 }
 
 
@@ -7560,7 +7573,9 @@ i.icon.search {
     width: 14px;
     height: 14px;
     background-image: url(../img/search.svg);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 i.icon.account {
@@ -7570,33 +7585,41 @@ i.icon.account {
 }
 
 i.icon.star.full {
-    width: 14px;
-    height: 13px;
+    width: 20px;
+    height: 19px;
     background-image: url(../img/gold-star.svg);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 i.icon.star {
-    width: 14px;
-    height: 13px;
+    width: 20px;
+    height: 19px;
     background-image: url(../img/star.svg);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 i.icon.insta {
-    width: 19px;
-    height: 19px;
+    width: 20px;
+    height: 20px;
     background-image: url(../img/inst.svg);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
     position: relative;
-    top: -4px;
+    top: -5px;
 }
 
 i.icon.vk {
     width: 27px;
     height: 16px;
     background-image: url(../img/vk.svg);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
     position: relative;
     top: -3px;
 }
@@ -7630,7 +7653,9 @@ i.icon.vk-auth {
     width: 27px;
     height: 16px;
     background-image: url(../img/vk.svg);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 i.icon.ok-auth {
@@ -7653,18 +7678,22 @@ i.icon.chat {
 
 i.icon.up {
     
-    width: 7px;
-    height: 13px;
+    width: 9px;
+    height: 15px;
     background-image: url(../img/down.svg);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 i.icon.down {
     
-    width: 7px;
-    height: 13px;
+    width: 9px;
+    height: 15px;
     background-image: url(../img/sort-down.svg);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 i.icon.setting {
@@ -8292,10 +8321,12 @@ a.account_mobile {
 }
 
 .product-item .poduct-info .but-group button.like {
-    width: 22px;
-    height: 20px;
+    width: 29px;
+    height: 26px;
     background-image: url(../img/heart-2.svg);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
     margin: 0;
     padding: 0
 }
@@ -8530,7 +8561,8 @@ footer.main-footer .footer-title {
     font-family: RobotoMedium, sans-serif;
     font-size: 14px;
     display: block;
-    margin-bottom: 10px
+    margin-bottom: 10px;
+    font-weight: 600;
 }
 
 .modal {
@@ -11416,6 +11448,8 @@ section.order-done .done-link-wrap .link:first-child a:hover {
                 i.icon.label {
                     width: 28px;
                     height: 19px;
+                    position: relative;
+                    top: -1px;
                 }
                 i.icon.list {
                     width: 22px;
