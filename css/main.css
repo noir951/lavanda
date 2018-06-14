@@ -11090,9 +11090,11 @@ section.order-done .done-link-wrap .link:first-child a:hover {
 }
 
             @media (max-width:1199.98px) {
+/*
                 .contact-block-line .phone {
                     margin-left: 15px
                 }                
+*/
                 .block-title {
                     font-size: 18px
                 }
@@ -12070,6 +12072,7 @@ section.order-done .done-link-wrap .link:first-child a:hover {
 .advantages ul li:first-child {
                     display: none;
                 }
+    
 }
 
 @media (min-width:768px) and (max-width:1200px) {
